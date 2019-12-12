@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "build" : "webapack --mode production"
+    "build": "webapack --mode production"
   },
   "author": "Mayank Sethi",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {}
 }
