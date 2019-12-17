@@ -25,6 +25,7 @@ const controlSearch = async () => {
         await state.search.getResults();
 
         // 5) Render the results on UI
+        console.log(state.search.result);
     }
 
 }
@@ -33,6 +34,3 @@ document.querySelector(".search").addEventListener('submit', e=>{
     e.preventDefault();
     controlSearch();
 });
-
-const search = new Search(`pizza`);
-search.getResults();
